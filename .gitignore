@@ -5,3 +5,79 @@ target/
 *.wav
 *.mathml
 *.ssml
+
+# ---------------------------
+# Windows / Visual Studio / .NET
+# ---------------------------
+
+.vs/
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+[Oo]ut/
+
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.pdb
+*.cache
+*.log
+
+# Test and coverage artifacts often produced by .NET tooling
+TestResults/
+*.trx
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# ---------------------------
+# Node / npm
+# ---------------------------
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm/
+
+# Environment variable files
+.env
+.env.*
+!.env.example
+
+# ---------------------------
+# Rust / Cargo
+# ---------------------------
+
+target/
+**/*.rs.bk
+
+# Keep Cargo.lock for an application/binary project
+# Ignore it only if you intentionally decide this repo should behave like a library
+# Cargo.lock
+
+# ---------------------------
+# Project-specific generated artifacts
+# ---------------------------
+
+output/
+*.wav
+*.mp3
+*.aiff
+*.m4a
+
+# Temporary SSML or MathML artifacts if you do not want them tracked
+*.tmp.ssml
+*.tmp.xml
+
+# ---------------------------
+# OS clutter
+# ---------------------------
+
+.DS_Store
+Thumbs.db
