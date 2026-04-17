@@ -1,0 +1,9 @@
+{
+  "name": "math-demo",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@mathjax/mathjax-mhchem-font-extension": "^4.1.1",
+    "@mathjax/src": "^4.1.1"
+  }
+}

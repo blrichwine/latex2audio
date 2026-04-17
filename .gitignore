@@ -1,0 +1,7 @@
+node_modules/
+target/
+.env
+*.mp3
+*.wav
+*.mathml
+*.ssml
